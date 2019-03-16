@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Jason\Desktop\data2\gpa2_labels.txt
+  log type:  text
+ opened on:  17 Aug 2017, 13:13:20
+
+. use C:\Users\Jason\Desktop\data\gpa2.dta, clear
+
+. describe
+
+Contains data from C:\Users\Jason\Desktop\data\gpa2.dta
+  obs:         4,137                          
+ vars:            12                          25 May 2002 14:39
+ size:       140,658                          
+---------------------------------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+---------------------------------------------------------------------------------------------------
+sat             int     %10.0g                combined SAT score
+tothrs          int     %10.0g                total hours through fall semest
+colgpa          float   %9.0g                 GPA after fall semester
+athlete         byte    %8.0g                 =1 if athlete
+verbmath        float   %9.0g                 verbal/math SAT score
+hsize           double  %10.0g                size grad. class, 100s
+hsrank          int     %10.0g                rank in grad. class
+hsperc          float   %9.0g                 high school percentile, from top
+female          byte    %9.0g                 =1 if female
+white           byte    %9.0g                 =1 if white
+black           byte    %9.0g                 =1 if black
+hsizesq         float   %9.0g                 hsize^2
+---------------------------------------------------------------------------------------------------
+Sorted by: 
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Jason\Desktop\data2\gpa2_labels.txt
+  log type:  text
+ closed on:  17 Aug 2017, 13:13:20
+---------------------------------------------------------------------------------------------------
